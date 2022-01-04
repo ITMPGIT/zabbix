@@ -9458,16 +9458,9 @@ zabbix_export:
           value: zte
       macros:
         -
-          macro: '{$DEFENSORIA}'
-          value: '.*0045-'
-          description: DEFENSORIA
-        -
           macro: '{$ICMPDOWN}'
           value: '300'
           description: 'segundos para indisponibilidade'
-        -
-          macro: '{$MPPI}'
-          value: '.*0183-'
         -
           macro: '{$ONLINE}'
           value: '4'
@@ -9477,56 +9470,6 @@ zabbix_export:
           value: '300'
           description: 'Tempo em ''segundos'' para alerta de status de ONU''s'
         -
-          macro: '{$PVD1}'
-          value: '.*1770THE-01I'
-          description: 'AGENDA ASSESSORIA'
-        -
-          macro: '{$PVD2}'
-          value: 1775THE-01I
-          description: 'TERESINA GAS'
-        -
-          macro: '{$PVD3}'
-          value: 'RADIO TAXI'
-          description: 'RADIO TAXI'
-        -
-          macro: '{$PVD4}'
-          value: '0142-TECNOTEL JOCKEY'
-          description: 'TECNOTEL JOCKEY'
-        -
-          macro: '{$PVD5}'
-          value: '0142-TECNOTEL PAX UNIAO'
-          description: 'TECNOTEL PAX UNIAO'
-        -
-          macro: '{$PVD6}'
-          value: 'ASSOCIACAO REABILITAR'
-        -
-          macro: '{$PVD7}'
-          value: 'TECNOTEL SEDE'
-        -
-          macro: '{$PVD8}'
-          value: 'COMERCIAL GAS'
-        -
-          macro: '{$PVD9}'
-          value: 'TECNOTEL DUOTEL'
-        -
-          macro: '{$PVD10}'
-          value: 'COLEGIO CPI I'
-        -
-          macro: '{$PVD11}'
-          value: '0142-TECNOTEL SAVORI'
-        -
-          macro: '{$PVD12}'
-          value: 0142-APPM
-        -
-          macro: '{$PVD13}'
-          value: 'TECNOTEL SANTA FE'
-        -
-          macro: '{$PVD14}'
-          value: 'CENTRO DE CONVENCOES'
-        -
-          macro: '{$PVD15}'
-          value: 'TECNOTEL DIOCESANO'
-        -
           macro: '{$RX_WARN}'
           value: '-11'
           description: 'Rx Signal ONU ALTA'
@@ -9535,24 +9478,8 @@ zabbix_export:
           value: '-26'
           description: 'Rx Signal ONU BAIXA'
         -
-          macro: '{$SEDUC}'
-          value: '.*0042-'
-          description: SEDUC
-        -
-          macro: '{$SEFAZ}'
-          value: '.*0046-'
-          description: SEFAZ
-        -
-          macro: '{$SESAPI}'
-          value: '.*0051-'
-          description: SESAPI
-        -
           macro: '{$SNMP_COMMUNITY}'
-          value: piconectado
-        -
-          macro: '{$SSPPI}'
-          value: '.*0047-'
-          description: SSPPI
+          value: public
         -
           macro: '{$TEMP_OLT_WARN}'
           value: '55'
@@ -9561,10 +9488,6 @@ zabbix_export:
           macro: '{$TEMP_WARN}'
           value: '100'
           description: 'Alerta temperatura ONU''s'
-        -
-          macro: '{$TJPI}'
-          value: '.*0182-'
-          description: 'TJ PI'
       valuemaps:
         -
           uuid: 293e857b36ee436f875ae1291358a3a6
